@@ -28,7 +28,7 @@ import learnovate from '../assets/company/learnovate.png';
 import codesoft from '../assets/company/codesoft.png';
 import gcloud from '../assets/company/gcloud.png';
 import internshala from '../assets/company/internshala.jpeg';
-import netflix from '../assets/company/netflix.png';
+import netflix from '../assets/company/Netflix.png';
 import eduhome from '../assets/company/eduhome.png';
 import weatherApp from '../assets/company/weatherApp.png';
 
