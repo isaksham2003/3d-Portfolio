@@ -50,7 +50,7 @@ export const navLinks = [
     id:"resume",
     title:"Resume",
     external: true,
-    url: "/My_resume.pdf"
+    url: "/My_resume.pdf",
   },
 ];
 
