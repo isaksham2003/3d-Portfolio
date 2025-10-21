@@ -65,6 +65,25 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
+          {navLinks.map((nav) => (
+  <li
+    key={nav.id}
+    className={`${
+      active === nav.title ? "text-red-500" : "text-secondary"
+    } hover:text-red-500 cursor-pointer font-medium text-[18px]`}
+    onClick={() => setActive(nav.title)}
+  >
+    {nav.external ? (
+      <a href={nav.url} target="_blank" rel="noopener noreferrer">
+        {nav.title}
+      </a>
+    ) : (
+      <a href={`#${nav.id}`}>{nav.title}</a>
+    )}
+  </li>
+))}
+
+
         </ul> </div>
 
       </div>

@@ -46,6 +46,12 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id:"resume",
+    title:"Resume",
+    external: true,
+    url: "/My_resume.pdf"
+  },
 ];
 
 const services = [
